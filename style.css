@@ -1,6 +1,6 @@
 :root {
     /* Colors */
-    /*--primary-Pale-blue: hsl(225, 100%, 94%);*/
+    --primary-Pale-blue: hsl(225, 100%, 94%);
     --primary-Bright-blue: hsl(245, 75%, 52%);
 
     --neutral-Very-pale-blue: hsl(225, 100%, 98%);
@@ -26,6 +26,9 @@ body {
     min-height: 100vh;
     font-family: var(--ff-primary);
     color: var(--neutral-Desaturated-blue);
+    background-color: var(--primary-Pale-blue);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
 
     display: grid;
     place-items: center;
