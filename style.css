@@ -1,0 +1,78 @@
+:root {
+    /* Colors */
+    /*--primary-Pale-blue: hsl(225, 100%, 94%);*/
+    --primary-Bright-blue: hsl(245, 75%, 52%);
+
+    --neutral-Very-pale-blue: hsl(225, 100%, 98%);
+    --neutral-Desaturated-blue: hsl(224, 23%, 55%);
+    --neutral-Dark-blue: hsl(223, 47%, 23%);
+
+    /* Fonts */
+    --ff-primary: 'Red Hat Display', sans-serif;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-black: 900;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--ff-primary);
+    color: var(--neutral-Desaturated-blue);
+
+    display: grid;
+    place-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* Typography */
+
+.card__order__title {
+    font-size: 1.2rem;
+    font-weight: var(--fw-black);
+    color: var(--neutral-Dark-blue);
+}
+
+.card__order__desc {
+    font-size: .8rem;
+    font-weight: var(--fw-medium);
+    text-align: center;
+}
+
+.card__order__plan__type__name {
+    font-size: .9rem;
+    font-weight: var(--fw-black);
+    color: var(--neutral-Dark-blue);
+}
+
+.card__order__plan__type__price {
+    font-size: .875rem;
+}
+
+.card__order__plan__change-btn {
+    font-size: .9rem;
+    font-weight: var(--fw-bold);
+    color: var(--primary-Bright-blue);
+}
+
+.card__order__body__proceed {
+    font-weight: var(--fw-bold);
+    color: var(--neutral-Very-pale-blue);
+}
+
+.card__order__body__cancel {
+    font-weight: var(--fw-bold);
+    color: var(--neutral-Desaturated-blue);
+}
