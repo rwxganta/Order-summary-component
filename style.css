@@ -135,3 +135,21 @@ img {
 .card__order__body__cancel {
     background-color: unset;
 }
+
+.card__order__body__proceed,
+.card__order__body__cancel,
+.card__order__plan__change-btn {
+    cursor: pointer;
+}
+
+.card__order__body__proceed:focus,
+.card__order__body__proceed:hover,
+.card__order__plan__change-btn:focus,
+.card__order__plan__change-btn:hover {
+    filter: brightness(1.5);
+}
+
+.card__order__body__cancel:focus,
+.card__order__body__cancel:hover {
+    color: var(--neutral-Dark-blue);
+}
