@@ -128,6 +128,10 @@ img {
     border-radius: 10px;
 }
 
+.card__order__body__proceed {
+    --spacer: 1.8em;
+}
+
 .card__order__body__cancel {
     background-color: unset;
 }
