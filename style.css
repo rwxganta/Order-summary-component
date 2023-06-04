@@ -79,3 +79,50 @@ img {
     font-weight: var(--fw-bold);
     color: var(--neutral-Desaturated-blue);
 }
+
+
+/* Layout */
+
+.card__order {
+    max-width: 300px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 7px 100px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+.card__order__body {
+    padding: 1.5rem;
+}
+
+.card__order__body > * + * {
+    margin-top: 1em;
+}
+
+.card__order__plan {
+    /*outline: 1px solid brown;*/
+    padding: 1.2rem;
+    align-items: center;
+    background-color: var(--neutral-Very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    gap: .6rem;
+}
+
+.card__order__plan__change-btn {
+    margin-left: auto;
+}
+
+.card__order__body__proceed,
+.card__order__body__cancel {
+    padding: .9em;
+    width: 100%;
+    display: block;
+    background-color: var(--primary-Bright-blue);
+    border: 0;
+    border-radius: 10px;
+}
+
+.card__order__body__cancel {
+    background-color: unset;
+}
