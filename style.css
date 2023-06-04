@@ -42,6 +42,12 @@ img {
 
 /* Typography */
 
+.card__order__title,
+.card__order__desc {
+    text-align: center;
+}
+
+
 .card__order__title {
     font-size: 1.2rem;
     font-weight: var(--fw-black);
@@ -51,7 +57,6 @@ img {
 .card__order__desc {
     font-size: .8rem;
     font-weight: var(--fw-medium);
-    text-align: center;
 }
 
 .card__order__plan__type__name {
