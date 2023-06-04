@@ -72,6 +72,7 @@ img {
 .card__order__plan__change-btn {
     font-size: .9rem;
     font-weight: var(--fw-bold);
+    text-decoration: none;
     color: var(--primary-Bright-blue);
 }
 
