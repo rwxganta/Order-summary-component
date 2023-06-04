@@ -101,7 +101,7 @@ img {
 }
 
 .card__order__body > * + * {
-    margin-top: 1em;
+    margin-top: var(--spacer, 1em);
 }
 
 .card__order__plan {
