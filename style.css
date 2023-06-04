@@ -23,6 +23,7 @@
 }
 
 body {
+    padding: 1rem;
     min-height: 100vh;
     font-family: var(--ff-primary);
     color: var(--neutral-Desaturated-blue);
@@ -101,12 +102,11 @@ img {
     padding: 1.5rem;
 }
 
-.card__order__body > * + * {
+.card__order__body>*+* {
     margin-top: var(--spacer, 1em);
 }
 
 .card__order__plan {
-    /*outline: 1px solid brown;*/
     padding: 1.2rem;
     align-items: center;
     background-color: var(--neutral-Very-pale-blue);
@@ -153,4 +153,14 @@ img {
 .card__order__body__cancel:focus,
 .card__order__body__cancel:hover {
     color: var(--neutral-Dark-blue);
+}
+
+
+@media (max-width: 350px) {
+
+    .card__order__plan__type__name,
+    .card__order__plan__type__price,
+    .card__order__plan__change-btn {
+        font-size: .765rem;
+    }
 }
