@@ -89,7 +89,7 @@ img {
 /* Layout */
 
 .card__order {
-    max-width: 300px;
+    max-width: 21rem;
     border-radius: 12px;
     background-color: #fff;
     box-shadow: 0 7px 100px rgba(0, 0, 0, .3);
